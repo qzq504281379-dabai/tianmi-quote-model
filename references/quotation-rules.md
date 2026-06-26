@@ -11,6 +11,8 @@
 - 单一产品标准配置：控制盒主体 + 一个遥控器/手柄。电源线默认不含，仅当客户或用户明确要求时加入。
 
 
+- 每个报价单必须包含商品合计金额 + 总价（合计）。
+- 商品合计：单价 × 数量。
 ## Output Table
 
 Create a customer-facing quotation table with these columns unless the user provides a template:
@@ -45,4 +47,5 @@ Apply discounts only when the source file contains the discount rule or the user
 ## Date And Validity
 
 Use the quote date requested by the user. If none is provided, use the current date from the environment. Quote validity must come from a company rule or user confirmation; otherwise mark it as `寰呯‘璁.
+
 
